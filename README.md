@@ -6,10 +6,26 @@ This is the readme for the LIS624-documentation Github repository, which will se
 
 This readme will be much more descriptive in the future, as work in the LIS624: Systems Librarianship course continues!
 
-## 2026-02-06 - First Readme Update ##
-Goal: Just getting some practice using Git and nano
-Context: see above; in a class
-Steps: N/A
-Results: pushed this new updated README to Github
-Verification: I don't think I know what this means, but I will verify that it pushed to Git after!
-Notes:
+## 2026-02-06 - First Readme Update
+
+### Goal
+
+Just getting some practice using Git and nano
+
+### Context
+
+See above; in a class
+
+### Steps
+
+N/A
+
+### Results
+
+Pushed this new updated README to Github
+
+### Verification
+
+I don't think I know what this means, but I will verify that it pushed to Git after!
+
+### Notes
