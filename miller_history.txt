@@ -1,0 +1,100 @@
+END { print sum }'
+cat /etc/issue.net
+cat ~/.gitconfig
+cat ~/.ssh/id_ed25519.pub
+cd LIS624-documentation
+cd LIS624-documentation git pull origin main
+exit
+flashcard
+flashcards
+gcloud compute scp
+gcloud computer scp
+git add README.md
+git add entry_one.md
+git add miller_history.txt
+git clone git@github.com:sammymiller-1917/LIS624-documentation.git
+git clone https://github.com/cseanburns/learn-the-commandline.git
+git commit -m "committed entry_one.md"
+git commit -m "committing README edit"
+git commit -m "committing Readme edit"
+git commit-m "committing README edit"
+git config --global commit.gpgsign true
+git config --global core.editor "nano"
+git config --global gpg.format ssh
+git config --global init.defaultBranch main
+git config --global user.email samuel.wr.miller@gmail.com
+git config --global user.name "sammymiller-1917"
+git config --global user.name "samuel_wr_miller"
+git config --global user.name samuel.wr.miller@gmail.com
+git config --global user.signingkey $HOME/.ssh/id_ed25519.pub
+git config --list
+git pull origin main
+git push origin main
+git status
+grep "Iran" savedrecs.bib
+grep "Khaldun" savedrecs.bib
+grep "^@" scopus.bib
+grep "journal =" savedrecs.bib
+grep "journal =" savedrecs.bib | cut -d"=" -f2 | sed 's/ {//' | sed 's/},//' | sort | uniq -c | sort
+grep "journal =" scopus.bib
+grep "tarih" savedrecs.bib
+grep -Eio "^@(A|B)[A-Z]*" scopus.bib | sort
+grep -Eio "^@(A|B)[A-Z]*" scopus.bib | sort | uniq -c
+grep -P "/tjournal" savedrecs.bib
+grep -P "\tjournal" savedrecs.bib | sort
+grep -i "^journal =" savedrecs.bib | cut -d"=" -f2 | sed 's/ {//' | sed 's/},//' | sort | uniq -c | sort -nr
+grep -i "journal" savedrecs.bib
+grep -i "tarih" savedrecs.bib
+grep -o "Times-Cited = {[0-9]*" savedrecs.bib | awk -F"{" 'BEGIN { printf "Total Citations: "} \
+grep -oi "Language = {English}" savedrecs.bib | sort | uniq -c
+grep -oi "Language = {German}" savedrecs.bib | sort |uniq -c
+grep -oi "Language = {Turkish}" savedrecs.bib | sort | uniq -c
+grep -oi "^@[a-z]*" savedrecs.bib | sort | uniq -c
+grep -oi "^language = Turkish" savedrecs.bib
+grep -oi "^language = Turkish" savedrecs.bib | sort | uniq -c
+grep -oi "tarih" savedrecs.bib
+grep -oi "tarih" savedrecs.bib | sort | uniq -c
+history | cut -c 8- | sort | uniq > miller_history.txt
+learn-the-cli
+learn-the-cli-module
+learn-the-filesystem
+less savedrecs.bib
+less scopus.bib
+ls
+ls /usr/local/bin
+man grep
+mv /home/samuel_wr_miller/miller_history.txt /home/samuel_wr_miller/ LIS624-documentation
+mv /home/samuel_wr_miller/miller_history.txt /home/samuel_wr_miller/LIS624-documentation
+mv /home/samuel_wr_miller/miller_history.txt /home/samuel_wr_miller/LIS624-documentation/miller_history.txt
+mv miller_history LIS624-documentation
+mv miller_history.txt
+mv miller_history.txt /LIS624-documentation/miller_history.txt
+mv miller_history.txt LIS624-documentation/
+mv scopus_export_Feb 11-2026 scopus.bib
+mv scopus_export_Feb 11-2026_d69afdf4-17c2-4949-8f23-69ab519ee7f1(1).bib scopus.bib
+mv scopus_export_Feb 11-2026_d69afdf4-17c2-4949-8f23-69ab519ee7fl(1).bib scopus.bib
+nano
+nano README.md
+nano entry_one.md
+nano example.txt
+nano id_ed25519.pub
+nano miller_history.txt
+pwd
+rm scopus.bib
+rm scopus_
+rm scopus_export_Feb 11-2026_d69afdf4-17c2-4949-8f23-69ab519ee7f1(1).bib
+rm scopus_export_Feb\ 11-2026_d69afdf4-17c2-4949-8f23-69ab519ee7f1\(1\).bib 
+ssh-keygen -t ed25519 -C "samuel.wr.miller@gmail.com"
+sudo apt -y upgrade
+sudo apt remove git && sudo apt install git
+sudo apt update
+sudo apt update ; apt list --upgradable
+sudo apt-get install nano
+sudo apt-get update
+sudo cp learn-the-commandline* /usr/local/bin
+sudo cp learn-the-commandline/* /usr/local/bin
+sudo unminimize
+unminimize
+wd
+y
+{ sum +=2; } \
