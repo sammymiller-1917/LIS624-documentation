@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document records the process I took in setting up a new database in MySQL, using that new database in a barebones OPAC system, and setting up a barebones cataloguing module to further develop the ILS that we will be using in the final project of this course.
+This document records the process I took in setting up a new database in MySQL, using that new database in a barebones OPAC system, and setting up a barebones cataloguing module to further develop the ILS that we will be using in the final project of this course. An OPAC (Online Public Access Catalog) is an online-accessible database that contains records for materials in a given library's catalog. It is part of an ILS (Integrated Library System), which is the whole digital system that handles the library's catalog, metadata, check ins, check outs, etc. Our library catalog is made up of relational databases (handled through MySQL, the go-to digital program for relational databases), databases made up of multiple interconnected tables that relate to each other via referring to keys held as variables in each respective table.
 
 ## Environment
 
